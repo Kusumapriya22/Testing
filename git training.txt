@@ -1,0 +1,116 @@
+Microsoft Windows [Version 10.0.22631.3007]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git init
+Reinitialized existing Git repository in C:/Users/kumuni/OneDrive - GalaxE. Solutions, Inc/C drive/Desktop/git - training/.git/
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git add .
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git stash
+You do not have the initial commit yet
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git reset
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git add *
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sample.txt
+
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git commit -m "for testing purpose"
+[master (root-commit) f98ecdb] for testing purpose
+ Committer: Muni <kumuni@galaxe.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Sample.txt
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git config --global user.email "kusumapriyamuni@gmail
+.com"
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git config --global user.name "Kusuma Priya"
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>gitk
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git branch -M main
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git remote add origin https://github.com/Kusumapriya22/Testing.git
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 215 bytes | 215.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Kusumapriya22/Testing.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 920 bytes | 34.00 KiB/s, done.
+From https://github.com/Kusumapriya22/Testing
+   f98ecdb..ab056b4  main       -> origin/main
+Updating f98ecdb..ab056b4
+Fast-forward
+ Sample.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git pull
+Already up to date.
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 929 bytes | 37.00 KiB/s, done.
+From https://github.com/Kusumapriya22/Testing
+   ab056b4..cb6d367  main       -> origin/main
+Updating ab056b4..cb6d367
+Fast-forward
+ Sample.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git pull
+Already up to date.
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 934 bytes | 37.00 KiB/s, done.
+From https://github.com/Kusumapriya22/Testing
+   cb6d367..fc87fea  main       -> origin/main
+Updating cb6d367..fc87fea
+Fast-forward
+ Sample.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+C:\Users\kumuni\OneDrive - GalaxE. Solutions, Inc\C drive\Desktop\git - training>
